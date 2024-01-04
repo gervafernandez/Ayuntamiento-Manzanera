@@ -1,0 +1,78 @@
+/* Importación de fuentes */
+
+@font-face {
+  font-family: RobotoCustom;
+  src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+/* Estilos Generales */
+
+* {
+  font-family: RobotoCustom, Arial, Helvetica, sans-serif;
+  margin: 5px;
+}
+
+/* Estilos para menú de Navegación */
+
+nav {
+  background-color: #ee964b;
+  padding: 10px 0px 10px 0px;
+}
+
+/* Estilos para encabezados h1 */
+
+h1 {
+}
+
+/* Estilos para encabezados h2 */
+
+h2 {
+  font-size: 2em;
+  color: black;
+  font-weight: 400;
+  border-left: 12px solid #ee964b;
+  padding-left: 10px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#noticias,
+#accesos-directos {
+  background-color: #f4f4f5;
+  margin: auto 0px auto 0px;
+}
+
+#noticias {
+  margin-top: 10px;
+}
+
+#agenda {
+  background-color: white;
+  margin: auto 0px auto 0px;
+}
+
+/* Estilos para la zona del Footer */
+
+footer {
+  background-color: #f0efef;
+  font-size: 14;
+}
+
+#pie_contenido {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+#pie_destacado {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0px 0px 10px;
+}
+
+#copy {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  font-style: italic;
+}
